@@ -9,7 +9,10 @@ public class JenkinsSetupApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinsSetupApplication.class, args);
 		System.out.println("this Spring boot project is running from the Jenkin.");
-		System.out.println("added new line in this code for the jenkins");
+		
+		String s = "Hi Welcome to the Jenkins pipline dorld";
+		
+		System.out.println(s);
 	}
 
 }
