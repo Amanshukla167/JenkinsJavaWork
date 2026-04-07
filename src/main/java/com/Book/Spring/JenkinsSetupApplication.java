@@ -10,9 +10,11 @@ public class JenkinsSetupApplication {
 		SpringApplication.run(JenkinsSetupApplication.class, args);
 		System.out.println("this Spring boot project is running from the Jenkin.");
 		
-		String s = "Hi Welcome to the Jenkins pipline world Aman";
+		int a = 4;
+		int b = 5;
+		int c = a+b;
 		
-		System.out.println(s);
+		System.out.println("the sum of two digit  a and b is :" + c);
 	}
 
 }
