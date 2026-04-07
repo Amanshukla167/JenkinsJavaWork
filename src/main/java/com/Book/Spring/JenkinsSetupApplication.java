@@ -10,7 +10,7 @@ public class JenkinsSetupApplication {
 		SpringApplication.run(JenkinsSetupApplication.class, args);
 		System.out.println("this Spring boot project is running from the Jenkin.");
 		
-		String s = "Hi Welcome to the Jenkins pipline world";
+		String s = "Hi Welcome to the Jenkins pipline world Aman";
 		
 		System.out.println(s);
 	}
