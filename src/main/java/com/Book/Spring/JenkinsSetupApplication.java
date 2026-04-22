@@ -10,7 +10,7 @@ public class JenkinsSetupApplication {
 		SpringApplication.run(JenkinsSetupApplication.class, args);
 		System.out.println("this Spring boot project is running from the Jenkin.");
 		
-		int a = 4;
+		int a = 10;
 		int b = 5;
 		int c = a+b;
 		
