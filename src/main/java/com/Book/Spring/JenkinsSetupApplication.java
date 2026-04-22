@@ -11,7 +11,7 @@ public class JenkinsSetupApplication {
 		System.out.println("this Spring boot project is running from the Jenkin.");
 		
 		int a = 10;
-		int b = 5;
+		int b = 10;
 		int c = a+b;
 		
 		System.out.println("the sum of two digit  a and b is :" + c);
